@@ -18,4 +18,5 @@ tasklist | find /i "ngrok.exe" >Nul && curl -s localhost:4040/api/tunnels | jq -
 echo Username: administrator
 echo Password: @HarApito
 echo Silahkan Login Ke RDP Anda!!
-ping -n 10 127.0.0.1 >nul
+pause
+
